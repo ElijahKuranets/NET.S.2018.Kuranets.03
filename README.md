@@ -23,6 +23,8 @@ Third day of developing ASP.NET MVC web applications
 [TestCase(8, 15, -7, -5)] <- ArgumentOutOfRangeException
 <li>
 [TestCase(8, 15, -0.6, -0.1)] <- ArgumentOutOfRangeException
+                                 
+                                 
 Рекомендованный шаблон для тестового метода проверки исключений.
 MethodName_Number_Degree_Precision_ArgumentOutOfRangeException(double number, int degree, double precision, double expected) => Assert.Throws(() => ClassName.MethodName(number, degree, precision));
  
