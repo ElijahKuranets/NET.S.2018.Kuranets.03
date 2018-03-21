@@ -25,6 +25,7 @@ Third day of developing ASP.NET MVC web applications
 [TestCase(8, 15, -0.6, -0.1)] <- ArgumentOutOfRangeException
 Рекомендованный шаблон для тестового метода проверки исключений.
 MethodName_Number_Degree_Precision_ArgumentOutOfRangeException(double number, int degree, double precision, double expected) => Assert.Throws(() => ClassName.MethodName(number, degree, precision));
+  
 2.	Реализовать метод "пузырьковой" сортировки для целочисленного массива (не использовать методы класса System.Array) таким образом, чтобы была возможность упорядочить строки матрицы
 <li>в порядке возрастания(убывания) сумм элементов строк матрицы;
 <li>в порядке возрастания(убывания) максимальных элементов строк матрицы;
